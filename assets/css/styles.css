@@ -1,0 +1,17 @@
+.gallery-column .gallery-div {
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-column:hover .gallery-div {
+  transform: scale(1.1);
+}
+
+.company-name-landing {
+  color: #fff;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  font-size: 56px;
+  font-weight: 700;
+  position: relative;
+}
+
