@@ -10,7 +10,7 @@
 
 :root {
   --color-default: #364d59;
-  --color-primary: #feb900;
+  --color-primary: #0a64b8;
   --color-secondary: #52565e;
 }
 
@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-  color: #ffc732;
+  color: #0a64b8;
   text-decoration: none;
 }
 
@@ -178,7 +178,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ffc732;
+  background: #0A64B8;
   color: #fff;
 }
 
@@ -687,7 +687,7 @@ section {
 }
 
 .get-started .php-email-form button[type=submit]:hover {
-  background: rgba(254, 185, 0, 0.8);
+  background: rgb(28,126,218);
 }
 
 @keyframes animate-loading {
@@ -797,7 +797,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: var(--color-primary);
+  background: initial;
 }
 
 .services .service-item:hover h3 {
@@ -1053,12 +1053,12 @@ section {
 }
 
 .testimonials .testimonial-item .stars i {
-  color: #ffc107;
+  color: #0a64b8;
   margin: 0 1px;
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #ffd565;
+  color: #0a64b8;
   font-size: 26px;
   line-height: 0;
 }
@@ -1282,7 +1282,7 @@ section {
 }
 
 .about .about-img {
-  min-height: 600px;
+  min-height: 500px;
   background-size: cover;
   background-position: center;
 }
@@ -1778,7 +1778,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(254, 185, 0, 0.8);
+  background: #1c7eda;
 }
 
 @keyframes animate-loading {
@@ -2711,5 +2711,9 @@ section {
   right: 0;
   bottom: 0;
   margin: auto;
+}
+
+.footer-navbar:hover {
+  color: #e9ecef !important;
 }
 
