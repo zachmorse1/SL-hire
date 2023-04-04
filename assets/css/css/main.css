@@ -2690,6 +2690,10 @@ section {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
+.morse-media a{
+  color: white;
+}
+
 .footer .footer-legal .credits {
   padding-top: 4px;
   font-size: 13px;
