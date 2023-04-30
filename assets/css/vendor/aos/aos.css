@@ -43,7 +43,7 @@
 }
 
 [data-aos][data-aos][data-aos-delay="200"].aos-animate, body[data-aos-delay="200"] [data-aos].aos-animate {
-  transition-delay: .2s;
+  transition-delay: 0;
 }
 
 [data-aos][data-aos][data-aos-duration="250"], body[data-aos-duration="250"] [data-aos] {

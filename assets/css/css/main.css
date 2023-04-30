@@ -110,7 +110,7 @@ section {
 
 .breadcrumbs:before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #00000099;
   position: absolute;
   inset: 0;
 }
@@ -598,6 +598,7 @@ section {
   background: #fff;
   padding: 30px;
   height: 100%;
+  text-align: center;
 }
 
 @media (max-width: 575px) {
@@ -739,8 +740,12 @@ section {
 
 .services .service-item {
   padding: 40px;
-  background: #fff;
+  background: #ffffff;
   height: 100%;
+}
+
+.services:hover .service-item:hover {
+  background-color: #ebebeb;
 }
 
 .services .service-item .icon {
@@ -803,6 +808,16 @@ section {
 .services .service-item:hover h3 {
   border-color: var(--color-primary);
 }
+
+/* --------------------------------------------------------------
+# Privacy Section
+-------------------------------------------------------------- */
+#privacy {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 
 /* --------------------------------------------------------------
 # Features Section
@@ -2688,10 +2703,6 @@ section {
 .footer .footer-legal .copyright {
   padding-top: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-.morse-media a{
-  color: white;
 }
 
 .footer .footer-legal .credits {
